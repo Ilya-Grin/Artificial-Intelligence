@@ -96,7 +96,7 @@ h6 {
 .container {
 	width: 100%;
 	max-width: 1920px;
-	padding: 0 30px;
+	padding: 0 387px;
 	margin: 0 auto;
 }
 
@@ -105,7 +105,7 @@ h6 {
 }
 .header__body {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	padding: 21px 0 22px 0;
 }
@@ -113,7 +113,7 @@ h6 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 84px 0 0;
+	margin: 0 30px 0 0;
 }
 .header__image {
 	vertical-align: middle;
@@ -128,9 +128,12 @@ h6 {
 }
 .header__navigation {
 	display: flex;
+	justify-content: space-between;
 }
 .header__menu {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 0 256px 0 0;
 }
 .header__item:not(:last-child) {
@@ -139,8 +142,17 @@ h6 {
 .header__link {
 	line-height: 22px;
 }
+.header__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .button-prefab {
 	background: #3a68b8;
 	border-radius: 5px;
 	padding: 15px 30px;
+}
+
+.hero {
+	background: linear-gradient(180deg, #08101d, #09111f);
 }
