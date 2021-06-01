@@ -40,6 +40,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	font-style: normal;
+	overflow-x: hidden;
 	color: #fff;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -155,4 +156,68 @@ h6 {
 
 .hero {
 	background: linear-gradient(180deg, #08101d, #09111f);
+}
+.hero__body {
+	padding: 70px 0 100px 0;
+}
+.section-container {
+	display: flex;
+	justify-content: space-between;
+}
+.section__first {
+	margin: 110px 0 0 0;
+	max-width: 604px;
+}
+.hero__title {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 160%;
+	color: #3a68b8;
+}
+.section__title {
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 130%;
+	margin: 0 0 40px 0;
+}
+.section__subtitle {
+	font-size: 18px;
+	line-height: 160%;
+	opacity: 0.7;
+	margin: 0 0 50px 0;
+	position: relative;
+	z-index: 1;
+}
+.hero__buttons {
+	font-size: 20px;
+	display: flex;
+	line-height: 27px;
+}
+.hero__button {
+	margin: 0 20px 0 0;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	line-height: 27px;
+}
+.hero__button:last-child {
+	margin: 0;
+}
+.button-image {
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+}
+.section__image {
+	width: 120%;
+	margin: 0 0 0 114px;
+}
+.hero__logos {
+	display: flex;
+	justify-content: space-between;
+}
+.card:not(:first-child) {
+	margin: 0 0 0 72px;
+}
+.card-icon {
+	width: 100%;
 }
