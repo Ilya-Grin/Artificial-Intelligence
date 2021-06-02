@@ -1,9 +1,15 @@
-const burger = document.querySelector('.header__burger');
-const menu = document.querySelector('.header__navigation');
-const body = document.querySelector('body');
+$(document).ready(function () {
 
-function burgerClick() {
-	burger.classList.toggle('active');
-	menu.classList.toggle('active');
-	body.classList.toggle('overflow');
-}
+	$('.header__burger').click(function () {
+		$('.header__burger, .header__navigation').toggleClass('active');
+		$('body').toggleClass('overflow');
+	});
+
+	$('.slider').slick({
+		infinite: true,
+		arrows: false,
+		dots: true,
+		slidesToShow: 5,
+		slidesToScroll: 3
+	});
+});

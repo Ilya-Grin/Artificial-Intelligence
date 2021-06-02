@@ -150,6 +150,10 @@
 	.image-reverse {
 		margin: 0 0 50px 0;
 	}
+	.about__section {
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 @media (max-width: 576px) {
