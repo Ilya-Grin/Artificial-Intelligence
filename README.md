@@ -7,3 +7,5 @@ ____
 - CSS3
 - БЭМ
 - JS
+- jQuery
+- Slick
