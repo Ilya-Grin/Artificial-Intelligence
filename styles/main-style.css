@@ -247,6 +247,7 @@ h6 {
 
 .about {
 	background: #020a18;
+	margin: 170px 0 0 0;
 }
 .about__image {
 	width: 110%;
@@ -264,4 +265,51 @@ h6 {
 }
 .about__subtitle:last-child {
 	margin: 0;
+}
+
+.slider__item {
+	background: linear-gradient(180deg, #0d1422, #19202d);
+	padding: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 362px;
+	border-radius: 10px;
+	overflow-y: hidden;
+	height: 394px;
+	margin: 0 0 50px 0;
+}
+.slick-slide {
+	margin-right: 30px;
+}
+.slick-active:first-child .slider__item {
+	border-radius: 0 10px 10px 0;
+}
+.slider__title {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 125%;
+}
+.slider__subtitle {
+	margin: 30px 0 0 0;
+	opacity: 0.7;
+	line-height: 160%;
+}
+.slider__image {
+	text-align: center;
+	margin: 0 auto 47px auto;
+}
+.slider-img {
+	margin: 17px auto 47px auto;
+}
+.slick-dots li button::before {
+	content: "";
+	background: #2c3647;
+	border-radius: 100px;
+}
+.slider-container {
+	max-width: 1920px;
+	margin: 0 auto;
 }
